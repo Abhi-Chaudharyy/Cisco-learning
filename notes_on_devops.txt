@@ -48,4 +48,3 @@
 - Grafana – Displays monitoring dashboards and alerts.
 - ELK Stack – Collects, searches, and visualizes logs.
 
-Note: The DevOps lifecycle is continuous. Monitoring provides feedback that helps teams plan, develop, test, and release improved software.
