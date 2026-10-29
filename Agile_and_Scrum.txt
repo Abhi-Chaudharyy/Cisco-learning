@@ -1,0 +1,193 @@
+## 1. Agile
+
+Definition: Agile is a software development approach in which software is built in small parts, feedback is collected frequently, and changes are made as needed.
+
+Example: A team develops an online shopping application by first building login, then product search, and then the shopping cart.
+
+Use case: Projects where requirements change frequently and customer feedback is important.
+
+## 2. Scrum
+
+Definition: Scrum is an Agile framework that helps teams develop products through short cycles called Sprints.
+
+Example: A team uses two-week Sprints to develop and improve an application.
+
+Use case: Managing complex projects through regular delivery, feedback, and improvement.
+
+## 3. Sprint
+
+Definition: A Sprint is a fixed-length period of one month or less during which the Scrum Team works toward a specific goal and creates a usable product Increment.
+
+Example: A team spends two weeks developing a login feature.
+
+Use case: Breaking development into manageable periods and delivering value regularly.
+
+## 4. Iteration
+
+Definition: An iteration is a repeated development cycle in which a team builds, evaluates, or improves a product.
+
+Example: The team first creates a basic search function and later improves its speed and accuracy.
+
+Use case: Developing software gradually through feedback and refinement.
+
+Difference: Scrum specifically calls its fixed-length cycles Sprints. Iteration is a broader term used in Agile development.
+
+## 5. User Story
+
+Definition: A user story describes a feature from the user's perspective, including what the user wants and why.
+
+Format: As a [user], I want [functionality], so that [benefit].
+
+Example: As a customer, I want to search for products so that I can find items quickly.
+
+Use case: Understanding user needs and guiding development.
+
+## 6. Epic
+
+Definition: An epic is a large body of work that can be divided into smaller user stories or backlog items.
+
+Example: A "Shopping Cart" epic can include adding products, removing products, changing quantities, and calculating totals.
+
+Use case: Organizing large features into smaller, manageable pieces.
+
+## 7. Story Points
+
+Definition: Story points are a relative estimation unit used by some Agile teams to estimate the size of work, considering effort, complexity, and uncertainty.
+
+Example: A simple validation change may be estimated at 2 points, while a complex payment feature may be estimated at 8 points.
+
+Use case: Helping teams estimate and forecast work.
+
+Note: Story points are not hours, and Scrum does not require teams to use them.
+
+## 8. Acceptance Criteria
+
+Definition: Acceptance criteria are specific conditions a user story or backlog item must satisfy to meet the agreed requirements.
+
+Example: For a login feature:
+
+- The user can enter a username and password.
+- Valid credentials allow login.
+- Invalid credentials display an error message.
+
+Use case: Clarifying requirements and helping developers and testers verify functionality.
+
+# Scrum Roles
+
+## 9. Product Owner
+
+Definition: The Product Owner is accountable for maximizing product value and managing the Product Backlog effectively.
+
+Responsibilities:
+
+- Defines and communicates the Product Goal.
+- Creates, clarifies, and orders backlog items.
+- Prioritizes work based on value and needs.
+- Ensures the backlog is transparent and understood.
+
+Example: The Product Owner prioritizes fixing a checkout problem over adding a cosmetic feature.
+
+## 10. Scrum Master
+
+Definition: The Scrum Master is accountable for establishing Scrum and improving the Scrum Team's effectiveness.
+
+Responsibilities:
+
+- Helps the team understand Scrum.
+- Facilitates effective collaboration.
+- Helps address impediments.
+- Coaches the team in self-management and continuous improvement.
+
+Example: The Scrum Master helps resolve a testing delay caused by an unavailable server.
+
+## 11. Developers
+
+Definition: Developers are the Scrum Team members who create a usable product Increment during each Sprint.
+
+Responsibilities:
+
+- Plan the work needed for the Sprint Goal.
+- Develop and test functionality.
+- Maintain product quality.
+- Adapt their plan as they learn.
+
+Example: Developers build the login page, implement its API, and write automated tests.
+
+## 12. Stakeholders
+
+Definition: Stakeholders are people or groups who affect, use, fund, or have an interest in the product.
+
+Examples: Customers, business managers, sales teams, and customer support teams.
+
+Use case: Providing requirements, feedback, and business information to help the team improve the product.
+
+Note: Stakeholders are not automatically members of the Scrum Team.
+
+# Scrum Events
+
+## 13. Sprint Planning
+
+Definition: Sprint Planning is the event where the Scrum Team establishes why the Sprint is valuable, what can be done, and how the selected work will be accomplished.
+
+Example: The team selects product search as its Sprint Goal and plans the work needed to deliver it.
+
+Use case: Establishing a clear goal and an initial plan for the Sprint.
+
+## 14. Daily Scrum
+
+Definition: The Daily Scrum is a 15-minute event for Developers to inspect progress toward the Sprint Goal and adapt their plan.
+
+Example: Developers discuss progress on the search feature and how to resolve a blocked integration test.
+
+Use case: Coordinating daily work and identifying obstacles.
+
+Note: It is not simply a status meeting for a manager.
+
+## 15. Sprint Review
+
+Definition: The Sprint Review is an event where the Scrum Team and stakeholders inspect the Sprint outcome and discuss future adaptations.
+
+Example: The team demonstrates product search and gathers feedback about adding category filters.
+
+Use case: Reviewing progress, collecting feedback, and adapting future work.
+
+## 16. Sprint Retrospective
+
+Definition: The Sprint Retrospective is an event where the Scrum Team examines how it worked and identifies improvements for future Sprints.
+
+Example: The team discovers that code reviews are delaying delivery and agrees to review pull requests earlier.
+
+Use case: Improving teamwork, processes, and product quality.
+
+# Scrum Artifacts and Commitments
+
+## 17. Sprint Backlog
+
+Definition: The Sprint Backlog contains the Sprint Goal, the Product Backlog items selected for the Sprint, and the Developers' plan for delivering them.
+
+Example: A Sprint Backlog contains product search, search validation, and automated tests needed to achieve the goal.
+
+Use case: Tracking and adapting the work required to achieve the Sprint Goal.
+
+## 18. Sprint Goal
+
+Definition: The Sprint Goal is the single objective for the Sprint that gives the team focus.
+
+Example: Enable customers to find products using search.
+
+Use case: Helping the team make decisions and stay focused when plans change.
+
+## 19. Definition of Done (DoD)
+
+Definition: The Definition of Done is the shared description of the quality standards that a product Increment must meet to be considered complete.
+
+Example:
+
+- Code has been reviewed.
+- Automated tests have passed.
+- Required security checks have been completed.
+- The feature has been integrated and works correctly.
+
+Use case: Ensuring completed work meets consistent quality standards.
+
+Note: If a backlog item does not meet the Definition of Done, it cannot be counted as part of the completed Increment.
