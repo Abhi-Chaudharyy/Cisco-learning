@@ -1,0 +1,51 @@
+8 Phases of the DevOps Lifecycle and Their Tools
+
+1\. Plan: Define requirements, tasks, and project timelines.
+
+- Jira – Tracks tasks, bugs, and sprints.
+- Trello – Organizes tasks using boards.
+- Azure Boards – Manages project planning and backlogs.
+
+2\. Code: Write and manage source code.
+
+- Git – Tracks code changes and versions.
+- GitHub – Hosts repositories and enables collaboration.
+- Visual Studio Code – Editor for writing and debugging code.
+
+3\. Build: Compile source code and create software packages.
+
+- Maven – Builds Java projects and manages dependencies.
+- Gradle – Automates builds and dependency management.
+- Jenkins – Automates build processes.
+
+4\. Test: Check software quality and detect bugs.
+
+- Selenium – Automates browser testing.
+- JUnit – Tests Java applications.
+- SonarQube – Analyzes code quality and security issues.
+
+5\. Release: Prepare and manage software versions before deployment.
+
+- Jenkins – Automates release pipelines.
+- Nexus Repository – Stores build artifacts.
+- JFrog Artifactory – Manages and distributes software packages.
+
+6\. Deploy: Deploy applications to testing or production environments.
+
+- Docker – Packages applications into containers.
+- Kubernetes – Deploys and manages containers.
+- Ansible – Automates deployment tasks.
+
+7\. Operate: Manage infrastructure and maintain applications in production.
+
+- Terraform – Provisions infrastructure using code.
+- Ansible – Automates server configuration.
+- Kubernetes – Manages application scaling and recovery.
+
+8\. Monitor: Track application performance, health, and errors.
+
+- Prometheus – Collects application and infrastructure metrics.
+- Grafana – Displays monitoring dashboards and alerts.
+- ELK Stack – Collects, searches, and visualizes logs.
+
+Note: The DevOps lifecycle is continuous. Monitoring provides feedback that helps teams plan, develop, test, and release improved software.
